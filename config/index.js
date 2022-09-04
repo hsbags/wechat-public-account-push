@@ -4,21 +4,21 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "",
+  APP_ID: "wx2206d0ddd881c111",
 
   // 公众号APP_SECRET
-  APP_SECRET: "",
+  APP_SECRET: "cca7d0dfd950ec31c8778db2fb9617d1",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
    * [
    *  {
    *    // 想要发送的人的名字
-   *    name: "老婆0",
+   *    name: "大哥0",
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-   *    id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
+   *    id: "oUvvW6KaUWpMt1NwUVsNOI3r-tJ0",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "zjVglIuCXo4CsraXWEio1iP7sZJ7IQEES9lDsgc4yOU",
+   *    useTemplateId: "3TVI6QQ57_mfej8J7Zi2s_ohuDUBNorWxuvMgmQtVGE",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
    *    openUrl: "https://wangxinleo.cn"
    *   }, 
@@ -33,18 +33,18 @@ export const config = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "Wue80GrtY1nAi5a4tam4FDxZF59WNx9pwcBc06LMpANnu8",
       // 所在省份
-      province: "广东",
+      province: "昆明",
       // 所在城市
-      city: "肇庆",
+      city: "官渡区",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "老婆1", 
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
+      name: "大哥1", 
+      id: "oUvvW6KaUWpMt1NwUVsNOI3r-tJ0",
+      useTemplateId: "	3TVI6QQ57_mfej8J7Zi2s_ohuDUBNorWxuvMgmQtVGE",
+      province: "昆明",
+      city: "官渡区",
       openUrl: "https://wangxinleo.cn"
     }, 
     {
@@ -102,7 +102,7 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
+    {"type": "生日", "name": "大哥", "year": "2003", "date": "01_26"},
     {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
     {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
